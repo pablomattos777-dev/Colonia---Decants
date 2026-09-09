@@ -8,7 +8,7 @@ const rows=[
 ['Erba Pura Xerjoff','Nicho','Unisex'],['Tobacco Vanille Tom Ford','Nicho','Unisex'],['Arabians Tonka Montale','Nicho','Unisex'],['Glich','Mykonos','Unisex'],['Conquer','Mykonos','Unisex']
 ];
 const images={
-'Versace Eros Flame':'8.jpg','Acqua di Giò Profondo':'11.webp','Le Beau JPG':'9.webp','Polo 67':'assets/products/polo-67.jpg','Bleu de Chanel EDP':'assets/products/bleu-de-chanel-edp.jpg','Valentino Uomo Coral Fantasy':'assets/products/valentino-uomo-coral-fantasy.jpg','Ralph’s Club Parfum':'assets/products/ralphs-club-parfum.jpg','BOSS Bottled':'assets/products/boss-bottled.jpg','Acqua di Giò EDT':'assets/products/acqua-di-gio-edt.jpg','Acqua di Giò Elixir':'assets/products/acqua-di-gio-elixir.jpg'};
+'Versace Eros Flame':'8.jpg','Acqua di Giò Profondo':'11.webp','Le Beau JPG':'9.webp','Polo 67':'7.jpg','Bleu de Chanel EDP':'6.jpg','Valentino Uomo Coral Fantasy':'5.webp','Ralph’s Club Parfum':'4.jpg','BOSS Bottled':'3.webp','Acqua di Giò EDT':'2.webp','Acqua di Giò Elixir':'1.webp'};
 const products=rows.map((p,i)=>({id:i+1,name:p[0],type:p[1],gender:p[2],prices:priceSets[p[1]],image:images[p[0]]||null}));
 let cart=[],filter='all',selected=null,selectedSize=5;
 const $=s=>document.querySelector(s), money=n=>'$'+n.toLocaleString('es-UY');
