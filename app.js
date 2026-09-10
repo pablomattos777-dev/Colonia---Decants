@@ -5,10 +5,23 @@ const rows=[
 ['Rayhaan Elixir','Árabe','Hombre'],['Odyssey Homme','Árabe','Hombre'],['Glacier Bold','Árabe','Hombre'],['Safari Breeze','Árabe','Hombre'],['9 PM Afnan','Árabe','Hombre'],['Dubai Night Midnight','Árabe','Hombre'],['Hawas Malibú','Árabe','Hombre'],['Atlas Lattafa','Árabe','Hombre'],['Hawas Fire','Árabe','Hombre'],['Club de Nuit Milestone','Árabe','Hombre'],['Rayhaan Azul','Árabe','Hombre'],['Hawas Verde','Árabe','Hombre'],['Club de Nuit Intense Man','Árabe','Hombre'],['Hawas Ice','Árabe','Hombre'],['Asad Elixir Lattafa','Árabe','Hombre'],['Odyssey Mega','Árabe','Hombre'],['Mandarinsky Elixir','Árabe','Hombre'],['Momento de Riffs','Árabe','Hombre'],['Khamrah Qahwa','Árabe','Hombre'],['Rayhan Pacific Aloha','Árabe','Hombre'],
 ['Haya Lattafa','Árabe','Mujer'],['Delilah Blanc','Árabe','Mujer'],['Badee Al Oud Blush','Árabe','Mujer'],['Quimmah Woman','Árabe','Mujer'],['Eclaire Lattafa','Árabe','Mujer'],['Victoria Lattafa','Árabe','Mujer'],['Eclaire Pistache','Árabe','Mujer'],['Yara Elixir','Árabe','Mujer'],['Yara Rosa','Árabe','Mujer'],['Yum Yum Armaf','Árabe','Mujer'],['Hawas Diva','Árabe','Mujer'],['Angham Second Song','Árabe','Mujer'],['Odyssey Candee','Árabe','Mujer'],
 ['Odyssey Mandarin Sky','Árabe','Unisex'],['Lovely Chérie','Árabe','Unisex'],['Al Haramain Conception','Árabe','Unisex'],['Honor & Glory','Árabe','Unisex'],['Khamrah','Árabe','Unisex'],['Liquid Brun','Árabe','Unisex'],['Nebras','Árabe','Unisex'],['Musamam White Intense','Árabe','Unisex'],['Amber Oud Gold Edition','Árabe','Unisex'],['Vulcan Feu','Árabe','Unisex'],['Club de Nuit Untold','Árabe','Unisex'],
-['Erba Pura Xerjoff','Nicho','Unisex'],['Tobacco Vanille Tom Ford','Nicho','Unisex'],['Arabians Tonka Montale','Nicho','Unisex'],['Glich','Mykonos','Unisex'],['Conquer','Mykonos','Unisex']
+['Erba Pura Xerjoff','Nicho','Unisex'],['Tobacco Vanille Tom Ford','Nicho','Unisex'],['Arabians Tonka Montale','Nicho','Unisex'],['Glich','Mykonos','Unisex'],['Conquer','Mykonos','Unisex'],
+["Acqua di Giò Profumo","Diseñador","Hombre"],
+["Le Beau Paradise Garden","Diseñador","Hombre"],
+["Y EDP Yves Saint Laurent","Diseñador","Hombre"]
 ];
 const images={
-'Versace Eros Flame':'8.jpg','Acqua di Giò Profondo':'11.webp','Le Beau JPG':'9.webp','Polo 67':'7.jpg','Bleu de Chanel EDP':'6.jpg','Valentino Uomo Coral Fantasy':'5.webp','Ralph’s Club Parfum':'4.jpg','BOSS Bottled':'3.webp','Acqua di Giò EDT':'2.webp','Acqua di Giò Elixir':'1.webp'};
+'Versace Eros Flame':'8.jpg','Acqua di Giò Profondo':'11.webp','Le Beau JPG':'9.webp','Polo 67':'7.jpg','Bleu de Chanel EDP':'6.jpg','Valentino Uomo Coral Fantasy':'5.webp','Ralph’s Club Parfum':'4.jpg','BOSS Bottled':'3.webp','Acqua di Giò EDT':'2.webp','Acqua di Giò Elixir':'1.webp',
+'Bvlgari Man Wood Essence':'WhatsApp Image 2026-09-10 at 7.47.46 PM.jpeg',
+'One Million Royal':'WhatsApp Image 2026-09-10 at 7.47.46 PM (1).jpeg',
+'Stronger With You Intensely':'WhatsApp Image 2026-09-10 at 7.47.47 PM (1).jpeg',
+'Invictus Parfum':'WhatsApp Image 2026-09-10 at 7.47.47 PM (2).jpeg',
+'MYSLF L’Absolu':'WhatsApp Image 2026-09-10 at 7.47.48 PM.jpeg',
+'Dolce & Gabbana The One EDP':'WhatsApp Image 2026-09-10 at 7.47.48 PM (1).jpeg',
+'Invictus EDT':'WhatsApp Image 2026-09-10 at 7.47.48 PM (3).jpeg',
+"Acqua di Giò Profumo":"WhatsApp Image 2026-09-10 at 7.47.47 PM.jpeg",
+"Le Beau Paradise Garden":"WhatsApp Image 2026-09-10 at 7.47.47 PM (3).jpeg",
+"Y EDP Yves Saint Laurent":"WhatsApp Image 2026-09-10 at 7.47.48 PM (2).jpeg"};
 const products=rows.map((p,i)=>({id:i+1,name:p[0],type:p[1],gender:p[2],prices:priceSets[p[1]],image:images[p[0]]||null}));
 let cart=[],filter='all',selected=null,selectedSize=5;
 const $=s=>document.querySelector(s), money=n=>'$'+n.toLocaleString('es-UY');
