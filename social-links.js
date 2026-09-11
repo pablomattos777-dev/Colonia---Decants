@@ -11,10 +11,12 @@
     .social-link{width:36px;height:36px;border:1px solid #34413e;border-radius:50%;display:inline-flex;align-items:center;justify-content:center;color:#f5efe8;text-decoration:none;background:rgba(13,18,17,.72);transition:.2s ease;flex:0 0 auto}
     .social-link:hover{transform:translateY(-2px);border-color:#d99772;color:#efb28d;background:#151d1b}
     .social-link svg{width:17px;height:17px;fill:currentColor}
-    header .social-links{margin-left:10px}
+    header .cart{margin-left:auto!important}
+    .social-top-row{display:flex;align-items:center;justify-content:center;gap:12px;padding:8px 18px;border-bottom:1px solid #202a28;background:#0d1211;flex-wrap:wrap}
+    .social-top-label{font-size:11px;letter-spacing:1.3px;color:#8e9b97;text-transform:uppercase}
     footer .footer-social-wrap{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
     footer .footer-social-label{font-size:11px;letter-spacing:1.2px;color:#8e9b97;text-transform:uppercase}
-    @media(max-width:820px){header .social-links{order:3;margin-left:0}.social-link{width:34px;height:34px}}
+    @media(max-width:820px){.social-top-row{padding:7px 12px;gap:9px}.social-link{width:34px;height:34px}}
   `;
   document.head.appendChild(style);
 
@@ -35,14 +37,17 @@
   const header=document.querySelector('header');
   if(header){
     const wa=header.querySelector('.header-wa');
-    const social=makeLinks();
-    if(wa){wa.style.display='none'; wa.insertAdjacentElement('afterend',social);} else header.appendChild(social);
+    if(wa) wa.style.display='none';
+    const row=document.createElement('div'); row.className='social-top-row';
+    const label=document.createElement('span'); label.className='social-top-label'; label.textContent='Seguinos';
+    row.append(label,makeLinks());
+    header.insertAdjacentElement('afterend',row);
   }
 
   const footer=document.querySelector('footer');
   if(footer){
     const wrap=document.createElement('div'); wrap.className='footer-social-wrap';
-    const label=document.createElement('span'); label.className='footer-social-label'; label.textContent='Seguinos y conocé nuestro trabajo';
+    const label=document.createElement('span'); label.className='footer-social-label'; label.textContent='Seguinos';
     wrap.append(label,makeLinks()); footer.appendChild(wrap);
   }
 })();
