@@ -5,20 +5,38 @@
 
   const style=document.createElement('style');
   style.textContent=`
-    .customer-data{margin:18px 0 14px;padding-top:16px;border-top:1px solid #2b3734}
-    .customer-data h3{margin:0 0 12px;color:#f5efe8;font-size:16px;font-weight:600}
-    .customer-data .field{margin-bottom:10px}
-    .customer-data label{display:block;margin-bottom:5px;color:#aab5b1;font-size:11px;letter-spacing:.5px;text-transform:uppercase}
-    .customer-data input,.customer-data select,.customer-data textarea{width:100%;box-sizing:border-box;background:#0d1211;color:#f5efe8;border:1px solid #34413e;border-radius:11px;padding:11px 12px;font:inherit;outline:none}
-    .customer-data input:focus,.customer-data select:focus,.customer-data textarea:focus{border-color:#d99772}
-    .customer-data textarea{min-height:70px;resize:vertical}
-    .customer-data .two{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+    .drawer{overflow-y:auto}
+    .drawer-foot{display:block!important}
+    .customer-data{margin:18px 0 16px;padding-top:18px;border-top:1px solid #2b3734}
+    .customer-data h3{margin:0 0 16px;color:#f5efe8;font-size:17px;font-weight:700;line-height:1.2}
+    .customer-data .field{display:block;width:100%;margin:0 0 14px;min-width:0}
+    .customer-data .two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;width:100%}
+    .customer-data label{display:block;width:100%;margin:0 0 7px;color:#b8c1be;font-size:11px;line-height:1.35;letter-spacing:.45px;text-transform:uppercase;white-space:normal}
+    .customer-data input,.customer-data select,.customer-data textarea{display:block;width:100%;min-width:0;box-sizing:border-box;background:#0d1211;color:#f5efe8;border:1px solid #34413e;border-radius:11px;padding:12px 13px;font:inherit;font-size:14px;line-height:1.25;outline:none}
+    .customer-data input,.customer-data select{height:46px}
+    .customer-data input::placeholder,.customer-data textarea::placeholder{color:#68736f;opacity:1}
+    .customer-data input:focus,.customer-data select:focus,.customer-data textarea:focus{border-color:#d99772;box-shadow:0 0 0 1px rgba(217,151,114,.12)}
+    .customer-data textarea{min-height:78px;resize:vertical}
     .customer-data .required{color:#d99772}
-    .customer-data .hint{display:block;color:#798580;font-size:11px;margin-top:4px;line-height:1.35}
+    .customer-data .hint{display:block;color:#798580;font-size:11px;margin-top:5px;line-height:1.35}
     .customer-data .conditional{display:none}
     .customer-data .conditional.show{display:block}
     .customer-data .field-error{border-color:#cf6f6f!important}
-    @media(max-width:520px){.customer-data .two{grid-template-columns:1fr}}
+    #checkout{width:100%;margin-top:8px}
+
+    @media(max-width:980px){
+      .customer-data .two{grid-template-columns:1fr}
+    }
+
+    @media(max-width:620px){
+      .drawer{width:min(100%,430px)}
+      .drawer-foot{padding-left:22px!important;padding-right:22px!important}
+      .customer-data{margin-top:16px;padding-top:18px}
+      .customer-data h3{font-size:16px;margin-bottom:15px}
+      .customer-data .field{margin-bottom:13px}
+      .customer-data label{font-size:10px}
+      .customer-data input,.customer-data select,.customer-data textarea{font-size:16px}
+    }
   `;
   document.head.appendChild(style);
 
@@ -26,10 +44,12 @@
   form.className='customer-data';
   form.innerHTML=`
     <h3>Datos para tu pedido</h3>
+
     <div class="field">
       <label for="customerName">Nombre completo <span class="required">*</span></label>
       <input id="customerName" autocomplete="name" placeholder="Nombre y apellido">
     </div>
+
     <div class="two">
       <div class="field">
         <label for="customerPhone">Teléfono <span class="required">*</span></label>
@@ -40,6 +60,7 @@
         <input id="customerDocument" inputmode="numeric" placeholder="Cédula / documento">
       </div>
     </div>
+
     <div class="field">
       <label for="deliveryType">Forma de entrega <span class="required">*</span></label>
       <select id="deliveryType">
@@ -49,6 +70,7 @@
         <option value="Coordinar">Coordinar entrega</option>
       </select>
     </div>
+
     <div class="two">
       <div class="field">
         <label for="customerCity">Localidad <span class="required">*</span></label>
@@ -59,15 +81,18 @@
         <input id="customerDepartment" autocomplete="address-level1" placeholder="Ej.: Colonia">
       </div>
     </div>
+
     <div id="addressField" class="field conditional">
       <label for="customerAddress">Dirección de entrega <span class="required">*</span></label>
       <input id="customerAddress" autocomplete="street-address" placeholder="Calle, número y datos útiles">
     </div>
+
     <div id="agencyField" class="field conditional">
       <label for="customerAgency">Agencia de destino <span class="required">*</span></label>
       <input id="customerAgency" placeholder="Ej.: DAC, UES, Mirtrans...">
       <small class="hint">Indicá la agencia o sucursal donde querés retirar.</small>
     </div>
+
     <div class="field">
       <label for="customerNotes">Observaciones</label>
       <textarea id="customerNotes" placeholder="Opcional: horario, referencia u otra aclaración"></textarea>
@@ -96,7 +121,10 @@
   }
 
   checkout.onclick=()=>{
-    if(typeof cart==='undefined'||!cart.length){alert('Agregá al menos un perfume al carrito.');return;}
+    if(typeof cart==='undefined'||!cart.length){
+      alert('Agregá al menos un perfume al carrito.');
+      return;
+    }
 
     const name=get('customerName');
     const phone=get('customerPhone');
