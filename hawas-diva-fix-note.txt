@@ -1,0 +1,1 @@
+Hawas Diva image replacement prepared; removing temporary files after binary replacement.
