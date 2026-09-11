@@ -45,4 +45,9 @@
 <footer><a class="brand footer-brand" href="#inicio"><span class="brand-mark"><i></i></span><span class="brand-copy"><b>COLONIA</b><span>— DECANTS —</span></span></a><span>Colonia, Uruguay · WhatsApp 098 993 292</span></footer>
 <div id="backdrop" class="backdrop"></div><aside id="drawer" class="drawer"><div class="drawer-head"><h2>Tu pedido</h2><button id="closeCart">×</button></div><div id="cartItems"></div><div class="drawer-foot"><div>Total <b id="total">$0</b></div><button id="checkout" class="btn">FINALIZAR POR WHATSAPP</button></div></aside>
 <div id="modal" class="modal"><div class="modal-card"><button id="closeModal" class="x">×</button><small id="modalMeta"></small><h2 id="modalName"></h2><div id="sizes" class="sizes"></div><button id="addToCart" class="btn">AGREGAR AL CARRITO</button></div></div>
-<script src="app.js"></script></body></html>
+<script src="app.js"></script>
+<script>
+const hawasDivaProduct=products.find(p=>p.name==='Hawas Diva');
+if(hawasDivaProduct){hawasDivaProduct.image='images/hawas-diva.webp';render();}
+</script>
+</body></html>
