@@ -7,16 +7,54 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="topbar">FRAGANCIAS ORIGINALES EN TU MEDIDA · ENVÍOS A TODO URUGUAY</div>
-<header><a class="brand" href="#inicio"><b>COLONIA</b><span>DECANTS</span></a><nav><a href="#inicio">Inicio</a><a href="#catalogo">Catálogo</a><a href="#precios">Precios</a><a href="#decants">¿Qué son?</a></nav><button id="openCart" class="cart">Carrito <span id="cartCount">0</span></button></header>
+<div class="topbar"><span>✦ FRAGANCIAS ORIGINALES EN TU MEDIDA</span><span>ENVÍOS A TODO URUGUAY</span></div>
+<header>
+  <a class="brand" href="#inicio" aria-label="Colonia Decants">
+    <span class="brand-mark"><i></i></span>
+    <span class="brand-copy"><b>COLONIA</b><span>— DECANTS —</span></span>
+  </a>
+  <nav><a href="#inicio">Inicio</a><a href="#catalogo">Catálogo</a><a href="#precios">Precios</a><a href="#decants">¿Qué son?</a></nav>
+  <a class="header-wa" href="https://wa.me/59898993292" target="_blank" rel="noopener">WhatsApp</a>
+  <button id="openCart" class="cart" aria-label="Abrir carrito">Carrito <span id="cartCount">0</span></button>
+</header>
 <main>
-<section id="inicio" class="hero"><div class="hero-copy"><small>DESCUBRÍ · PROBÁ · ELEGÍ</small><h1>Tu perfume favorito,<br><em>en la medida perfecta.</em></h1><p>Probá más fragancias sin comprar el frasco completo. Decants originales en 5 ml, 10 ml y 30 ml.</p><div><a class="btn" href="#catalogo">VER CATÁLOGO</a><a class="btn ghost" href="https://wa.me/59898993292" target="_blank">WHATSAPP</a></div></div><div class="hero-art"><div class="bottle b1"></div><div class="bottle b2"></div><div class="bottle b3"></div><strong>Más fragancias.<br>Más historias.</strong></div></section>
-<section class="benefits"><div>✓ <b>100% ORIGINALES</b><small>Fragancias auténticas</small></div><div>◈ <b>5 / 10 / 30 ML</b><small>En tu medida ideal</small></div><div>▣ <b>PACKAGING ESPECIAL</b><small>Por 3 o más decants</small></div><div>✆ <b>PEDIDO POR WHATSAPP</b><small>Rápido y sencillo</small></div></section>
-<section id="precios" class="prices"><article><b>ÁRABES</b><span>5 ml $300 · 10 ml $550 · 30 ml $1.500</span></article><article><b>DISEÑADOR</b><span>5 ml $450 · 10 ml $850 · 30 ml $2.300</span></article><article><b>NICHO</b><span>5 ml $850 · 10 ml $1.500 · 30 ml $4.100</span></article><article><b>MYKONOS</b><span>5 ml $380 · 10 ml $720 · 30 ml $2.000</span></article></section>
-<section id="catalogo" class="catalog"><div class="section-head"><div><small>COLONIA DECANTS</small><h2>Catálogo</h2><p id="productCount"></p></div><input id="search" placeholder="Buscar perfume..."></div><div id="filters" class="filters"><button class="active" data-filter="all">Todos</button><button data-filter="Hombre">Hombre</button><button data-filter="Mujer">Mujer</button><button data-filter="Unisex">Unisex</button><button data-filter="Árabe">Árabes</button><button data-filter="Diseñador">Diseñador</button><button data-filter="Nicho">Nicho</button><button data-filter="Mykonos">Mykonos</button></div><div id="productGrid" class="grid"></div></section>
-<section id="decants" class="about"><small>¿QUÉ SON LOS DECANTS?</small><h2>Probá antes de invertir.</h2><p>Un decant es una fracción del perfume original colocada en un atomizador práctico. Podés descubrir y comparar más fragancias sin comprar el frasco completo.</p></section>
+<section id="inicio" class="hero">
+  <div class="hero-glow glow-a"></div><div class="hero-glow glow-b"></div>
+  <div class="hero-copy">
+    <small>DESCUBRÍ · PROBÁ · ELEGÍ</small>
+    <h1>Tu perfume favorito,<br><em>en la medida perfecta.</em></h1>
+    <p>Descubrí nuevas fragancias sin comprar el frasco completo. Decants originales, preparados con cuidado y listos para acompañarte.</p>
+    <div class="hero-actions"><a class="btn" href="#catalogo">VER CATÁLOGO <span>→</span></a><a class="btn ghost" href="https://wa.me/59898993292" target="_blank" rel="noopener">HACÉ TU PEDIDO</a></div>
+    <div class="hero-note"><span>5 ML</span><i></i><span>10 ML</span><i></i><span>30 ML</span></div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <div class="logo-watermark"><span class="wm-bottle"></span><b>COLONIA</b><small>DECANTS</small></div>
+    <div class="pedestal"></div>
+    <div class="bottle b1"><span></span></div><div class="bottle b2"><span></span></div><div class="bottle b3"><span></span></div>
+    <strong>Más fragancias.<br>Más historias.</strong>
+  </div>
+</section>
+<section class="benefits">
+  <div><span class="benefit-icon">◇</span><p><b>100% ORIGINALES</b><small>Fragancias auténticas</small></p></div>
+  <div><span class="benefit-icon">◫</span><p><b>5 / 10 / 30 ML</b><small>En tu medida ideal</small></p></div>
+  <div><span class="benefit-icon">✦</span><p><b>PACKAGING ESPECIAL</b><small>Por 3 o más decants</small></p></div>
+  <div><span class="benefit-icon">↗</span><p><b>PEDIDO POR WHATSAPP</b><small>Rápido y sencillo</small></p></div>
+</section>
+<section id="precios" class="prices">
+  <article><small>COLECCIÓN</small><b>ÁRABES</b><span>5 ml $300 · 10 ml $550 · 30 ml $1.500</span></article>
+  <article><small>COLECCIÓN</small><b>DISEÑADOR</b><span>5 ml $450 · 10 ml $850 · 30 ml $2.300</span></article>
+  <article><small>COLECCIÓN</small><b>NICHO</b><span>5 ml $850 · 10 ml $1.500 · 30 ml $4.100</span></article>
+  <article><small>COLECCIÓN</small><b>MYKONOS</b><span>5 ml $380 · 10 ml $720 · 30 ml $2.000</span></article>
+</section>
+<section id="catalogo" class="catalog">
+  <div class="section-head"><div><small>COLECCIÓN COLONIA DECANTS</small><h2>Encontrá tu próxima esencia.</h2><p id="productCount"></p></div><label class="search-wrap"><span>⌕</span><input id="search" placeholder="Buscar perfume..."></label></div>
+  <div id="filters" class="filters"><button class="active" data-filter="all">Todos</button><button data-filter="Hombre">Hombre</button><button data-filter="Mujer">Mujer</button><button data-filter="Unisex">Unisex</button><button data-filter="Árabe">Árabes</button><button data-filter="Diseñador">Diseñador</button><button data-filter="Nicho">Nicho</button><button data-filter="Mykonos">Mykonos</button></div>
+  <div id="productGrid" class="grid"></div>
+</section>
+<section class="promo-band"><div><small>PROMO ESPECIAL</small><h2>Llevando 4 o más decants,<br><em>otro va de regalo.</em></h2></div><a class="btn ghost" href="#catalogo">ELEGIR FRAGANCIAS →</a></section>
+<section id="decants" class="about"><div class="about-kicker">CD</div><div><small>¿QUÉ SON LOS DECANTS?</small><h2>Probá antes de invertir.</h2><p>Un decant es una fracción del perfume original colocada en un atomizador práctico. Una forma simple de descubrir, comparar y disfrutar más fragancias sin comprar el frasco completo.</p></div></section>
 </main>
-<footer><b>COLONIA DECANTS</b><span>Colonia, Uruguay · WhatsApp 098 993 292</span></footer>
+<footer><a class="brand footer-brand" href="#inicio"><span class="brand-mark"><i></i></span><span class="brand-copy"><b>COLONIA</b><span>— DECANTS —</span></span></a><span>Colonia, Uruguay · WhatsApp 098 993 292</span></footer>
 <div id="backdrop" class="backdrop"></div><aside id="drawer" class="drawer"><div class="drawer-head"><h2>Tu pedido</h2><button id="closeCart">×</button></div><div id="cartItems"></div><div class="drawer-foot"><div>Total <b id="total">$0</b></div><button id="checkout" class="btn">FINALIZAR POR WHATSAPP</button></div></aside>
 <div id="modal" class="modal"><div class="modal-card"><button id="closeModal" class="x">×</button><small id="modalMeta"></small><h2 id="modalName"></h2><div id="sizes" class="sizes"></div><button id="addToCart" class="btn">AGREGAR AL CARRITO</button></div></div>
 <script src="app.js"></script></body></html>
