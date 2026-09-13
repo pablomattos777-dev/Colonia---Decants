@@ -1,1 +1,1 @@
-document.write('<script src="app-core.js"><\/script><script src="angham-fix.js"><\/script><script src="popup-enhance.js"><\/script><script src="social-links.js"><\/script><script src="checkout-enhance.js"><\/script>');
+document.write('<script src="app-core.js"><\/script><script src="new-products-2026-09-12.js"><\/script><script src="angham-fix.js"><\/script><script src="popup-enhance.js"><\/script><script src="social-links.js"><\/script><script src="checkout-enhance.js"><\/script>');
