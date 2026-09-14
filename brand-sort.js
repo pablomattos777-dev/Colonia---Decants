@@ -51,7 +51,30 @@
     return product.name;
   }
 
+  function ensureBrandStyles() {
+    if (document.getElementById('brand-group-styles')) return;
+    const style = document.createElement('style');
+    style.id = 'brand-group-styles';
+    style.textContent = `
+      #productGrid.brand-grouped { display:block; }
+      .brand-section { margin: 0 0 34px; }
+      .brand-heading { display:flex; align-items:center; gap:12px; margin: 4px 0 16px; }
+      .brand-heading h2 { margin:0; font-size:clamp(1.15rem, 2.4vw, 1.55rem); letter-spacing:.08em; text-transform:uppercase; }
+      .brand-heading::after { content:''; height:1px; flex:1; background:linear-gradient(90deg, rgba(212,175,55,.65), rgba(255,255,255,.08)); }
+      .brand-count { opacity:.62; font-size:.82rem; white-space:nowrap; }
+      .brand-products { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:18px; }
+      @media (max-width:600px) {
+        .brand-section { margin-bottom:28px; }
+        .brand-products { grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+        .brand-heading { margin-bottom:12px; }
+        .brand-count { font-size:.74rem; }
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
   render = function () {
+    ensureBrandStyles();
     const q = $('#search').value.toLowerCase().trim();
     const list = products
       .filter(p => (filter === 'all' || p.type === filter || p.gender === filter) && p.name.toLowerCase().includes(q))
@@ -61,15 +84,32 @@
         return modelName(a).localeCompare(modelName(b), 'es', { sensitivity: 'base', numeric: true });
       });
 
-    $('#productCount').textContent = `${products.length} fragancias cargadas`;
-    $('#productGrid').innerHTML = list.map(p => `
-      <article class="card">
-        <div class="product-art">${art(p)}</div>
-        <small>${brandOf(p.name)} · ${p.type} · ${p.gender}</small>
-        <h3>${p.name}</h3>
-        <div class="price">desde ${money(p.prices[5])}</div>
-        <button onclick="openProduct(${p.id})">Elegir medida</button>
-      </article>`).join('');
+    const groups = list.reduce((acc, product) => {
+      const brand = brandOf(product.name);
+      (acc[brand] ||= []).push(product);
+      return acc;
+    }, {});
+
+    $('#productCount').textContent = `${list.length} fragancias mostradas · ${products.length} cargadas`;
+    const grid = $('#productGrid');
+    grid.classList.add('brand-grouped');
+    grid.innerHTML = Object.entries(groups).map(([brand, items]) => `
+      <section class="brand-section" data-brand="${brand}">
+        <div class="brand-heading">
+          <h2>${brand}</h2>
+          <span class="brand-count">${items.length} ${items.length === 1 ? 'fragancia' : 'fragancias'}</span>
+        </div>
+        <div class="brand-products">
+          ${items.map(p => `
+            <article class="card">
+              <div class="product-art">${art(p)}</div>
+              <small>${p.type} · ${p.gender}</small>
+              <h3>${p.name}</h3>
+              <div class="price">desde ${money(p.prices[5])}</div>
+              <button onclick="openProduct(${p.id})">Elegir medida</button>
+            </article>`).join('')}
+        </div>
+      </section>`).join('');
   };
 
   render();
