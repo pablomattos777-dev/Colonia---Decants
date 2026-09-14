@@ -3,9 +3,9 @@
     { name: 'Odyssey Homme White Edition', type: 'Árabe', gender: 'Hombre', image: 'images/odyssey-homme-white-edition.jpg' },
     { name: 'Club de Nuit Maleka', type: 'Árabe', gender: 'Mujer', image: 'images/club-de-nuit-maleka.jpg' },
     { name: 'Nitro Red Dumont', type: 'Árabe', gender: 'Hombre', image: 'images/nitro-red-dumont.jpg' },
-    { name: 'Salvo Eau de Parfum', type: 'Árabe', gender: 'Hombre', image: null },
-    { name: 'Salvo Elixir', type: 'Árabe', gender: 'Hombre', image: null },
-    { name: 'Rome Extradose', type: 'Árabe', gender: 'Hombre', image: null },
+    { name: 'Salvo Eau de Parfum', type: 'Árabe', gender: 'Hombre', image: 'images/salvo-eau-de-parfum.jpg' },
+    { name: 'Salvo Elixir', type: 'Árabe', gender: 'Hombre', image: 'images/salvo-elixir.jpg' },
+    { name: 'Rome Extradose', type: 'Árabe', gender: 'Hombre', image: 'images/rome-extradose.jpg' },
     { name: 'Odyssey Aqua', type: 'Árabe', gender: 'Hombre', image: null },
     { name: 'Yeah! Man Parfum', type: 'Árabe', gender: 'Hombre', image: null }
   ];
