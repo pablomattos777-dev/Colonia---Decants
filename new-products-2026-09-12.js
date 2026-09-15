@@ -7,7 +7,8 @@
     { name: 'Salvo Elixir', type: 'Árabe', gender: 'Hombre', image: 'images/salvo-elixir.jpg' },
     { name: 'Rome Extradose', type: 'Árabe', gender: 'Hombre', image: 'images/rome-extradose.jpg' },
     { name: 'Odyssey Aqua', type: 'Árabe', gender: 'Hombre', image: null },
-    { name: 'Yeah! Man Parfum', type: 'Árabe', gender: 'Hombre', image: null }
+    { name: 'Yeah! Man Parfum', type: 'Árabe', gender: 'Hombre', image: null },
+    { name: 'Le Male Elixir Jean Paul Gaultier', type: 'Diseñador', gender: 'Hombre', image: null }
   ];
 
   nuevos.forEach(item => {
@@ -18,7 +19,7 @@
         name: item.name,
         type: item.type,
         gender: item.gender,
-        prices: priceSets['Árabe'],
+        prices: priceSets[item.type],
         image: item.image
       });
     }
