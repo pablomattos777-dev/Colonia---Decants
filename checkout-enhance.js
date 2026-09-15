@@ -7,8 +7,8 @@
 
   const style=document.createElement('style');
   style.textContent=`
-    .drawer{overflow-y:auto;padding-bottom:90px!important}
-    .drawer-foot{display:block!important;padding-bottom:12px!important}
+    .drawer{overflow-y:auto;padding-bottom:120px!important}
+    .drawer-foot{display:block!important;padding-bottom:36px!important}
     #cartItems{display:block!important;max-height:210px!important;overflow-y:auto!important;margin-bottom:8px!important;flex:none!important;min-height:0!important}
     #cartItems .cart-row{display:block!important;padding:9px 0!important;border-bottom:1px solid #25302e!important;line-height:1.25!important}
     #cartItems .cart-row b{font-size:14px!important;font-weight:600!important}
@@ -29,13 +29,14 @@
     .customer-data .conditional{display:none!important}
     .customer-data .conditional.show{display:block!important}
     .customer-data .field-error{border-color:#cf6f6f!important}
-    #checkout{display:flex!important;position:sticky!important;bottom:10px!important;z-index:30!important;width:100%!important;min-height:48px!important;margin:10px 0 0!important;align-items:center!important;justify-content:center!important;box-shadow:0 -8px 24px rgba(10,13,13,.72),0 8px 24px rgba(0,0,0,.25)!important}
+    #checkout{display:flex!important;position:sticky!important;bottom:28px!important;z-index:30!important;width:100%!important;min-height:48px!important;margin:10px 0 0!important;align-items:center!important;justify-content:center!important;box-shadow:0 -8px 24px rgba(10,13,13,.72),0 8px 24px rgba(0,0,0,.25)!important}
     @media(max-width:620px){
-      .drawer{width:min(100%,430px);padding-bottom:95px!important}
+      .drawer{width:min(100%,430px);padding-bottom:135px!important;overscroll-behavior:contain!important}
+      .drawer-foot{padding-bottom:52px!important}
       .customer-data .two{grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important}
       .customer-data input,.customer-data select,.customer-data textarea{font-size:14px!important}
       #cartItems{max-height:180px!important}
-      #checkout{bottom:max(10px,env(safe-area-inset-bottom))!important}
+      #checkout{bottom:max(32px,calc(env(safe-area-inset-bottom) + 18px))!important}
     }
     @media(max-width:390px){.customer-data .two{grid-template-columns:1fr!important}}
   `;
