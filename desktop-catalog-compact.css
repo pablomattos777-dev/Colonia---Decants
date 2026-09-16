@@ -1,0 +1,22 @@
+/* Catálogo más liviano SOLO en escritorio. Móvil queda sin cambios. */
+@media (min-width: 900px) {
+  .catalog{padding:56px 3vw 72px}
+  .section-head{margin-bottom:4px}
+  .filters{margin:20px 0 22px}
+  .grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+  .card{padding:12px;min-height:300px;border-radius:16px}
+  .product-art{height:165px;margin:-12px -12px 13px;background:radial-gradient(circle at 50% 42%,#202825 0%,#151a18 52%,#101312 82%)}
+  .product-art img{width:100%;height:100%;object-fit:contain;padding:4px;filter:none}
+  .product-art>div{height:100px;width:62px}
+  .product-art:after{bottom:6px;height:10px;opacity:.45}
+  .card small{font-size:8px}
+  .card h3{font-size:16px;margin:7px 0 9px;line-height:1.15}
+  .card .price{font-size:11px}
+  .card button{margin-top:12px;padding:9px;font-size:9px}
+}
+@media (min-width: 1450px) {
+  .catalog{padding-left:2.5vw;padding-right:2.5vw}
+  .grid{grid-template-columns:repeat(6,minmax(0,1fr));gap:13px}
+  .product-art{height:160px}
+  .card{min-height:292px}
+}
