@@ -13,3 +13,23 @@ nav a{color:#302c29}.header-wa{color:#285f5b;border-color:#c9ded9;background:#f7
 .drawer{background:#fffdfa!important;color:#201d1b!important;border-color:#e5d9ce!important}.drawer-head{border-color:#e8ddd3!important}.drawer-head h2,.drawer-foot,.drawer b{color:#201d1b!important}.drawer-head button{color:#201d1b!important}.backdrop{background:rgba(35,29,25,.38)!important}
 #modal.modal{background:rgba(45,36,30,.48)}#modal .modal-card{background:#fffdfa;border-color:#e8ddd2;box-shadow:0 24px 70px rgba(74,52,37,.20)}#modal .x{color:#211d1a}#modal #modalMeta{color:#847a72}#modal #modalName{color:#211d1a}#modal .sizes button{background:#fff;color:#2b2724;border-color:#ddd1c6}#modal .sizes button.active{background:linear-gradient(135deg,#efa985,#d98765);color:#fff}
 @media(max-width:760px){.topbar{font-size:8px;letter-spacing:1px}.topbar span:first-child{display:none}header{height:72px;padding:0 4vw;gap:10px}.brand-mark{width:31px;height:36px}.brand-copy b{font-size:15px}.brand-copy>span{font-size:7px;letter-spacing:3px}nav{display:none}.header-wa{display:none}.hero{min-height:auto;padding:42px 6vw 34px;grid-template-columns:1fr}.hero h1{font-size:43px}.hero-art{height:270px;margin-top:12px;background-size:min(82vw,390px) auto}.compact-benefits{overflow-x:auto;justify-content:flex-start;padding-left:5vw}.catalog{padding:52px 4vw 64px}.section-head{align-items:stretch;flex-direction:column;gap:14px}.search-wrap{width:100%}.filters{flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px;margin:18px 0 22px}.filters button{flex:0 0 auto}.grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.card{padding:10px;min-height:300px}.product-art{height:145px;margin:-10px -10px 12px}.card h3{font-size:15px}.card button{font-size:9px;padding:10px 6px}.promo-band{margin:0 4vw 54px;padding:30px 24px}.about{margin:0 4vw 54px;padding:30px 24px}.about-kicker{display:none}footer{padding:28px 4vw}}
+
+
+/* Logo principal integrado, sin recuadro — PC y móvil */
+header .brand{gap:0;min-width:230px}
+header .brand-mark{
+  width:220px;height:88px;
+  border:0!important;border-radius:0!important;
+  box-shadow:none!important;
+  background:transparent url('logo-colonia-decants.svg') center/contain no-repeat!important;
+}
+header .brand-mark:before,header .brand-mark:after,header .brand-mark i{display:none!important}
+header .brand-copy{display:none!important}
+@media(min-width:761px){
+  header{height:106px}
+}
+@media(max-width:760px){
+  header{height:82px;padding:0 4vw}
+  header .brand{min-width:0;flex:0 0 auto}
+  header .brand-mark{width:132px;height:70px}
+}
