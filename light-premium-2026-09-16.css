@@ -33,3 +33,26 @@ header .brand-copy{display:none!important}
   header .brand{min-width:0;flex:0 0 auto}
   header .brand-mark{width:132px;height:70px}
 }
+
+
+/* Refinamiento visual inspirado en la maqueta aprobada — 23/09 */
+@media(min-width:761px){
+  header{height:118px;padding:0 6.5vw;gap:38px}
+  header .brand{min-width:300px}
+  header .brand-mark{width:285px;height:108px}
+  header nav{margin-left:auto}
+  .hero{min-height:610px;padding-left:7vw;padding-right:5vw;grid-template-columns:minmax(520px,.92fr) minmax(560px,1.08fr)}
+  .hero-copy{max-width:650px}
+  .hero h1{font-size:clamp(58px,4.8vw,86px);line-height:.96;letter-spacing:-2.8px}
+  .hero p{max-width:620px;font-size:15px;line-height:1.75}
+  .hero-art{height:100%;min-height:560px;background-size:min(42vw,610px) auto;background-position:center 48%}
+  .hero:after{width:520px;height:520px;right:-55px;top:18px}
+}
+@media(min-width:1400px){
+  header .brand{min-width:330px}
+  header .brand-mark{width:315px;height:112px}
+}
+@media(max-width:760px){
+  header .brand-mark{width:148px;height:74px}
+  .hero-art{background-size:min(88vw,420px) auto}
+}
