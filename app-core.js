@@ -26,7 +26,7 @@ const rows=[
 ["Asad Bourbon","Árabe","Hombre"]
 ];
 const images={
-  "Farenheit": "images/fahrenheit-dior-new.jpg",
+  "Fahrenheit": "images/fahrenheit-dior-new.jpg",
   "9PM Night Out": "images/9pm-night-out.jpg",
   "Versace Eros Flame": "8.jpg",
   "Acqua di Giò Profondo": "11.webp",
