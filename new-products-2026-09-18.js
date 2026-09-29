@@ -2,7 +2,7 @@
   const nuevos = [
     { name: "Terre d'Hermès EDT", type: "Diseñador", gender: "Hombre", image: "images/terre-dhermes-edt.webp" },
     { name: "Invictus Elixir Rabanne", type: "Diseñador", gender: "Hombre", image: "images/invictus-elixir-rabanne.webp" },
-    { name: "Halloween Man X", type: "Diseñador", gender: "Hombre", image: null },
+    { name: "Halloween Man X", type: "Diseñador", gender: "Hombre", image: "images/halloween-man-x.jpg" },
     { name: "One Million Privé", type: "Diseñador", gender: "Hombre", image: null }
   ];
   nuevos.forEach(item => {
