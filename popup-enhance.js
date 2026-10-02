@@ -1,5 +1,6 @@
 (() => {
   const descriptions = {
+    'Light Blue Pour Homme Dolce & Gabbana':'Fresca, cítrica y amaderada, con un carácter mediterráneo ligero y elegante.',
     'Versace Eros Flame':'Cítrica, especiada y amaderada, con un perfil cálido, intenso y muy seductor.',
     'Invictus Parfum':'Aromática y amaderada, fresca al inicio y más profunda y elegante en el secado.',
     'Invictus Victory EDP':'Dulce, ambarada y especiada, con mucha presencia y un carácter nocturno.',
