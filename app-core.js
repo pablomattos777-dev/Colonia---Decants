@@ -23,7 +23,8 @@ const rows=[
 ["La Vie Est Belle Elixir","Diseñador","Mujer"],
 ["Kenzo Flower","Diseñador","Mujer"],
 ["DKNY Be Delicious EDP","Diseñador","Mujer"],
-["Asad Bourbon","Árabe","Hombre"]
+["Asad Bourbon","Árabe","Hombre"],
+["Light Blue Pour Homme Dolce & Gabbana","Diseñador","Hombre"]
 ];
 const images={
   "Fahrenheit": "images/fahrenheit-dior-new.jpg",
