@@ -1,5 +1,6 @@
 (() => {
   const nuevos = [
+    { name: "Rare Reef Afnan", type: "Árabe", gender: "Unisex", image: null },
     { name: "Armaf Odyssey Pink Pop", type: "Árabe", gender: "Mujer", image: null },
     { name: "Terre d'Hermès EDT", type: "Diseñador", gender: "Hombre", image: "images/terre-dhermes-edt.webp" },
     { name: "Invictus Elixir Rabanne", type: "Diseñador", gender: "Hombre", image: "images/invictus-elixir-rabanne.webp" },
