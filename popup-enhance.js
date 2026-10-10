@@ -1,5 +1,6 @@
 (() => {
   const descriptions = {
+    'Rey Maison Asrar':'Cítrica, aromática y ambarada, con bergamota, pomelo y pimienta negra. Su fondo de tonka, vainilla y almizcle aporta calidez y suavidad.',
     'Hawas Kobra':'Fresca, cítrica y aromática, con un toque especiado y un fondo amaderado. Moderna y versátil para uso diario.',
     'Hawas Tropical':'Fresca, verde y tropical, con coco, higo y un fondo amaderado suave. Ideal para días cálidos.',
     'Light Blue Pour Homme Dolce & Gabbana':'Fresca, cítrica y amaderada, con un carácter mediterráneo ligero y elegante.',
