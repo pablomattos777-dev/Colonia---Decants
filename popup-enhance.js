@@ -1,5 +1,6 @@
 (() => {
   const descriptions = {
+    'Hawas Tropical':'Fresca, verde y tropical, con coco, higo y un fondo amaderado suave. Ideal para días cálidos.',
     'Light Blue Pour Homme Dolce & Gabbana':'Fresca, cítrica y amaderada, con un carácter mediterráneo ligero y elegante.',
     'Versace Eros Flame':'Cítrica, especiada y amaderada, con un perfil cálido, intenso y muy seductor.',
     'Invictus Parfum':'Aromática y amaderada, fresca al inicio y más profunda y elegante en el secado.',
