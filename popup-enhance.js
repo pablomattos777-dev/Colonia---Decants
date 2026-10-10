@@ -1,5 +1,6 @@
 (() => {
   const descriptions = {
+    'Hawas Kobra':'Fresca, cítrica y aromática, con un toque especiado y un fondo amaderado. Moderna y versátil para uso diario.',
     'Hawas Tropical':'Fresca, verde y tropical, con coco, higo y un fondo amaderado suave. Ideal para días cálidos.',
     'Light Blue Pour Homme Dolce & Gabbana':'Fresca, cítrica y amaderada, con un carácter mediterráneo ligero y elegante.',
     'Versace Eros Flame':'Cítrica, especiada y amaderada, con un perfil cálido, intenso y muy seductor.',
