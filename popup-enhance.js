@@ -1,5 +1,6 @@
 (() => {
   const descriptions = {
+    'Rayhaan Italia':'Cítrica, dulce y cálida, con lavanda, bergamota y limón. La miel y la canela dan paso a un fondo envolvente de tabaco, vainilla y haba tonka.',
     'Rey Maison Asrar':'Cítrica, aromática y ambarada, con bergamota, pomelo y pimienta negra. Su fondo de tonka, vainilla y almizcle aporta calidez y suavidad.',
     'Hawas Kobra':'Fresca, cítrica y aromática, con un toque especiado y un fondo amaderado. Moderna y versátil para uso diario.',
     'Hawas Tropical':'Fresca, verde y tropical, con coco, higo y un fondo amaderado suave. Ideal para días cálidos.',
