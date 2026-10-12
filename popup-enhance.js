@@ -1,5 +1,7 @@
 (() => {
   const descriptions = {
+    "Dolce & Gabbana Light Blue Femenino":"Fresca, cítrica y frutal, con un fondo amaderado suave. Una fragancia femenina, ligera y luminosa para todos los días.",
+    "Versace Dylan Turquoise":"Fresca, cítrica y floral, con un toque frutal y un fondo suave. Una fragancia femenina y luminosa, ideal para días cálidos.",
     'Rayhaan Italia':'Cítrica, dulce y cálida, con lavanda, bergamota y limón. La miel y la canela dan paso a un fondo envolvente de tabaco, vainilla y haba tonka.',
     'Rey Maison Asrar':'Cítrica, aromática y ambarada, con bergamota, pomelo y pimienta negra. Su fondo de tonka, vainilla y almizcle aporta calidez y suavidad.',
     'Hawas Kobra':'Fresca, cítrica y aromática, con un toque especiado y un fondo amaderado. Moderna y versátil para uso diario.',
