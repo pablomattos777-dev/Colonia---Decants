@@ -25,7 +25,6 @@
     'Acqua di Giò EDT':'Fresca, cítrica y marina, limpia y clásica para todos los días.',
     'Acqua di Giò Elixir':'Marina y amaderada con más profundidad, intensidad y elegancia.',
     'Ralph’s Club Parfum':'Aromática y amaderada, elegante, limpia y con un fondo cálido.',
-    'BOSS Bottled':'Aromática, frutal y especiada, clásica, versátil y muy agradable.',
     'Y Le Parfum':'Aromática y amaderada, intensa, limpia y elegante con un fondo oscuro.',
     'Bvlgari Man Wood Essence':'Cítrica y amaderada, verde, elegante y con sensación natural.',
     'Armani Code Parfum':'Aromática, limpia y amaderada, refinada y sensual sin ser pesada.',
