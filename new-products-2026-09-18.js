@@ -39,3 +39,15 @@
   }
   render();
 })();
+
+(() => {
+  const name = "L’Intrude Maison Alhambra";
+  if (!products.some(p => p.name === name)) {
+    products.push({
+      id: products.reduce((max, p) => Math.max(max, p.id), 0) + 1,
+      name, type: "Árabe", gender: "Mujer",
+      prices: priceSets["Árabe"], image: null
+    });
+  }
+  render();
+})();
