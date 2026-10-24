@@ -12,7 +12,6 @@
     'Versace Eros Flame':'Cítrica, especiada y amaderada, con un perfil cálido, intenso y muy seductor.',
     'Invictus Parfum':'Aromática y amaderada, fresca al inicio y más profunda y elegante en el secado.',
     'Invictus Victory EDP':'Dulce, ambarada y especiada, con mucha presencia y un carácter nocturno.',
-    'Stronger With You Intensely':'Dulce y cálida, con vainilla, especias y un fondo ambarado envolvente.',
     'Bad Boy Cobalt':'Aromática y amaderada con un toque frutal moderno, fresco y magnético.',
     'Le Beau Narcisse JPG':'Sensual y moderna, con un perfil dulce, aromático y amaderado.',
     'MYSLF L’Absolu':'Aromática y elegante, con frescura luminosa y un fondo cálido y sofisticado.',
