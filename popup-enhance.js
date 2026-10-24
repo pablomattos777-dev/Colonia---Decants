@@ -1,5 +1,6 @@
 (() => {
   const descriptions = {
+    "Stronger With You Powerfully":"Eau de Parfum de Emporio Armani. Dulce, especiada y amaderada, con cereza, mandarina, lavanda y un acorde de castaña azucarada con matices ahumados.",
     "Carolina Herrera Bad Boy Elixir":"Amaderada y aromática, con salvia, cuero y madera de cedro. Una fragancia cálida, elegante y con carácter.",
     "Dolce & Gabbana Light Blue Femenino":"Fresca, cítrica y frutal, con un fondo amaderado suave. Una fragancia femenina, ligera y luminosa para todos los días.",
     "Versace Dylan Turquoise":"Fresca, cítrica y floral, con un toque frutal y un fondo suave. Una fragancia femenina y luminosa, ideal para días cálidos.",
