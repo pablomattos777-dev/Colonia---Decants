@@ -1,6 +1,13 @@
 (() => {
   // Set a perfume name to false here when it is temporarily out of stock.
-  const stockByName = {};
+  const stockByName = {
+  "Azzaro The Most Wanted EDT Intense": false,
+  "Club de Nuit Intense Man": false,
+  "Conquer": false,
+  "Good Girl Blush Elixir": false,
+  "Hawas Fire": false,
+  "Khamrah Qahwa": false
+};
   const stockStyle = document.createElement('style');
   stockStyle.textContent = `
     #productGrid .stock-status{display:flex;align-items:center;gap:6px;margin:0 0 10px;font-size:11px;font-weight:500;line-height:1.4;color:#86d5a4}
