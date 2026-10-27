@@ -1,5 +1,6 @@
 (() => {
   const descriptions = {
+    "La Bomba Eau de Parfum Carolina Herrera":"Eau de Parfum femenina de Carolina Herrera. Una fragancia floral y afrutada, alegre y vibrante, con pitaya exótica.",
     "Stronger With You Powerfully":"Eau de Parfum de Emporio Armani. Dulce, especiada y amaderada, con cereza, mandarina, lavanda y un acorde de castaña azucarada con matices ahumados.",
     "Carolina Herrera Bad Boy Elixir":"Amaderada y aromática, con salvia, cuero y madera de cedro. Una fragancia cálida, elegante y con carácter.",
     "Dolce & Gabbana Light Blue Femenino":"Fresca, cítrica y frutal, con un fondo amaderado suave. Una fragancia femenina, ligera y luminosa para todos los días.",
