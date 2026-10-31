@@ -1,6 +1,7 @@
 (() => {
   // Set a perfume name to false here when it is temporarily out of stock.
   const stockByName = {
+  "Asad Elixir Lattafa": false,
   "Azzaro The Most Wanted EDT Intense": false,
   "Club de Nuit Intense Man": false,
   "Conquer": false,
