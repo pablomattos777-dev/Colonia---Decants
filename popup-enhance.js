@@ -15,7 +15,6 @@
     'Invictus Victory EDP':'Dulce, ambarada y especiada, con mucha presencia y un carácter nocturno.',
     'Le Beau Narcisse JPG':'Sensual y moderna, con un perfil dulce, aromático y amaderado.',
     'MYSLF L’Absolu':'Aromática y elegante, con frescura luminosa y un fondo cálido y sofisticado.',
-    'Dolce & Gabbana The One EDP':'Cálida, especiada y ambarada; elegante, seductora y perfecta para la noche.',
     'Bleu de Chanel EDP':'Cítrica, aromática y amaderada, versátil, limpia y muy elegante.',
     'Polo 67':'Fresca, aromática y deportiva, con un toque frutal y amaderado moderno.',
     'One Million Royal':'Dulce, especiada y amaderada, intensa y llamativa con un aire elegante.',
