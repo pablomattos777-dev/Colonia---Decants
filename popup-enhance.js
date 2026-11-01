@@ -1,5 +1,6 @@
 (() => {
   const descriptions = {
+    "Prada Paradoxe Intense":"Eau de Parfum femenina, floral y ambarada, con jazmín, un cálido acorde de ámbar y matices de musgo. Intensa y envolvente, con un toque amaderado.",
     "La Bomba Eau de Parfum Carolina Herrera":"Eau de Parfum femenina de Carolina Herrera. Una fragancia floral y afrutada, alegre y vibrante, con pitaya exótica.",
     "Stronger With You Powerfully":"Eau de Parfum de Emporio Armani. Dulce, especiada y amaderada, con cereza, mandarina, lavanda y un acorde de castaña azucarada con matices ahumados.",
     "Carolina Herrera Bad Boy Elixir":"Amaderada y aromática, con salvia, cuero y madera de cedro. Una fragancia cálida, elegante y con carácter.",
