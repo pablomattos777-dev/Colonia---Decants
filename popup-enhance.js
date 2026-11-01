@@ -1,5 +1,6 @@
 (() => {
   const descriptions = {
+    "Club de Nuit Woman":"Eau de Parfum femenina de Armaf. Floral y frutal, con naranja, bergamota, pomelo y durazno; un corazón de rosa, jazmín y lichi, sobre un fondo de pachulí, almizcle, vainilla y vetiver.",
     "Club de Nuit Sillage":"Eau de Parfum unisex de Armaf. Fresca y luminosa, con bergamota, grosella negra y hojas de violeta. Una fragancia de carácter cítrico y floral.",
     "Good Girl Blush":"Eau de Parfum femenina de Carolina Herrera. Floral, luminosa y delicadamente dulce, con bergamota, peonía, ylang-ylang y un fondo cálido de vainilla.",
     "Prada Paradoxe Intense":"Eau de Parfum femenina, floral y ambarada, con jazmín, un cálido acorde de ámbar y matices de musgo. Intensa y envolvente, con un toque amaderado.",
