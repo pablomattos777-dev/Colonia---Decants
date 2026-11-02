@@ -146,7 +146,7 @@ const images={
   "Liquid Brun": "images/liquid-brun.jpg",
   "Erba Pura Xerjoff": "images/erba-pura.jpg"
 };
-const products=rows.map((p,i)=>({id:i+1,name:p[0],type:p[1],gender:p[2],prices:priceSets[p[1]],image:images[p[0]]||null}));
+const products=rows.map((p,i)=>({id:i+1,name:p[0],type:p[1],gender:p[2],prices:priceSets[p[0]==="CK Be"?"Árabe":p[1]],image:images[p[0]]||null}));
 let cart=[],filter='all',selected=null,selectedSize=5;
 const $=s=>document.querySelector(s), money=n=>'$'+n.toLocaleString('es-UY');
 function art(p){return p.image?`<img src="${p.image}" alt="${p.name}" onerror="this.remove();this.parentElement.innerHTML='<div></div>'">`:'<div></div>'}
