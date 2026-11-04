@@ -1,5 +1,6 @@
 (() => {
   const descriptions = {
+    "L’Eau d’Issey Pour Homme Sport":"Eau de Toilette masculina de Issey Miyake. Cítrica y amaderada, con pomelo y bergamota, un corazón de nuez moscada y cuero, y un fondo de vetiver, cedro y ámbar gris. Fresca y enérgica para todos los días.",
     "Odyssey Nexus":"Eau de Parfum masculina de Armaf. Fresca, aromática y acuática, con bergamota, mandarina y notas marinas; un corazón de salvia, geranio, romero y jengibre, sobre un fondo amaderado de incienso y pachulí.",
     "Club de Nuit Woman":"Eau de Parfum femenina de Armaf. Floral y frutal, con naranja, bergamota, pomelo y durazno; un corazón de rosa, jazmín y lichi, sobre un fondo de pachulí, almizcle, vainilla y vetiver.",
     "Club de Nuit Sillage":"Eau de Parfum unisex de Armaf. Fresca y luminosa, con bergamota, grosella negra y hojas de violeta. Una fragancia de carácter cítrico y floral.",
