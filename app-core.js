@@ -1,5 +1,6 @@
 const priceSets={"Diseñador":{5:450,10:850,30:2300},"Árabe":{5:300,10:550,30:1500},"Nicho":{5:850,10:1500,30:4100},"Mykonos":{5:380,10:720,30:2000}};
 const rows=[
+["Odyssey Nexus","Árabe","Hombre"],
 ["Club de Nuit Woman","Árabe","Mujer"],
 ["Club de Nuit Sillage","Árabe","Unisex"],
 ["Good Girl Blush","Diseñador","Mujer"],
@@ -38,6 +39,7 @@ const rows=[
 ["MYSLF Eau de Parfum Yves Saint Laurent","Diseñador","Hombre"],
 ];
 const images={
+  "Odyssey Nexus": "images/odyssey-nexus.webp",
   "Club de Nuit Woman": "images/club-de-nuit-woman.webp",
   "Club de Nuit Sillage": "images/club-de-nuit-sillage.webp",
   "Good Girl Blush": "images/good-girl-blush.jpg",
