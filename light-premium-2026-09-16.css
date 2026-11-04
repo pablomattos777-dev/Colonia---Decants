@@ -164,3 +164,10 @@ section[aria-label="Medios de pago"] img{height:21px!important;width:30px!import
 section[aria-label="Medios de pago"]>span:last-of-type img{width:36px!important}
 section[aria-label="Medios de pago"] strong{font-size:13px!important}
 }
+
+/* Beneficios en una sola fila en celular. */
+@media(max-width:760px){
+section[aria-label="Beneficios"]{display:flex;flex-wrap:nowrap!important;justify-content:center;gap:5px;padding:8px 8px;min-height:0;font-size:clamp(5.8px,1.7vw,8px);letter-spacing:0;line-height:1.4;white-space:nowrap;overflow:hidden}
+section[aria-label="Beneficios"]>span{display:inline-flex;flex:0 0 auto;gap:2px;white-space:nowrap}
+section[aria-label="Beneficios"]>i{width:2px;height:2px;flex:0 0 2px}
+}
