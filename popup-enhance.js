@@ -1,5 +1,6 @@
 (() => {
   const descriptions = {
+    "L’Eau d’Issey Eau & Magnolia":"Eau de Toilette Intense femenina de Issey Miyake. Floral, fresca y delicada, con bergamota, magnolia y un fondo suave de sándalo y almizcles. Luminosa y envolvente para todos los días.",
     "L’Eau d’Issey Pour Homme Sport":"Eau de Toilette masculina de Issey Miyake. Cítrica y amaderada, con pomelo y bergamota, un corazón de nuez moscada y cuero, y un fondo de vetiver, cedro y ámbar gris. Fresca y enérgica para todos los días.",
     "Odyssey Nexus":"Eau de Parfum masculina de Armaf. Fresca, aromática y acuática, con bergamota, mandarina y notas marinas; un corazón de salvia, geranio, romero y jengibre, sobre un fondo amaderado de incienso y pachulí.",
     "Club de Nuit Woman":"Eau de Parfum femenina de Armaf. Floral y frutal, con naranja, bergamota, pomelo y durazno; un corazón de rosa, jazmín y lichi, sobre un fondo de pachulí, almizcle, vainilla y vetiver.",
