@@ -1,5 +1,6 @@
 (() => {
   const descriptions = {
+    "Afnan Supremacy Collector’s Edition":"Eau de Parfum de Afnan con una salida frutal de piña, bergamota y manzana, acompañada de un toque de flores blancas.",
     "L’Eau d’Issey Eau & Magnolia":"Eau de Toilette Intense femenina de Issey Miyake. Floral, fresca y delicada, con bergamota, magnolia y un fondo suave de sándalo y almizcles. Luminosa y envolvente para todos los días.",
     "L’Eau d’Issey Pour Homme Sport":"Eau de Toilette masculina de Issey Miyake. Cítrica y amaderada, con pomelo y bergamota, un corazón de nuez moscada y cuero, y un fondo de vetiver, cedro y ámbar gris. Fresca y enérgica para todos los días.",
     "Odyssey Nexus":"Eau de Parfum masculina de Armaf. Fresca, aromática y acuática, con bergamota, mandarina y notas marinas; un corazón de salvia, geranio, romero y jengibre, sobre un fondo amaderado de incienso y pachulí.",

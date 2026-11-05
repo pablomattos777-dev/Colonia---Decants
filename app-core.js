@@ -1,5 +1,6 @@
 const priceSets={"Diseñador":{5:450,10:850,30:2300},"Árabe":{5:300,10:550,30:1500},"Nicho":{5:850,10:1500,30:4100},"Mykonos":{5:380,10:720,30:2000}};
 const rows=[
+["Afnan Supremacy Collector’s Edition","Árabe","Unisex"],
 ["L’Eau d’Issey Eau & Magnolia","Diseñador","Mujer"],
 ["L’Eau d’Issey Pour Homme Sport","Diseñador","Hombre"],
 ["Odyssey Nexus","Árabe","Hombre"],
@@ -41,6 +42,7 @@ const rows=[
 ["MYSLF Eau de Parfum Yves Saint Laurent","Diseñador","Hombre"],
 ];
 const images={
+  "Afnan Supremacy Collector’s Edition": "images/afnan-supremacy-collectors-edition.jpg",
   "L’Eau d’Issey Eau & Magnolia": "images/issey-miyake-eau-magnolia.webp",
   "L’Eau d’Issey Pour Homme Sport": "images/issey-miyake-sport.webp",
   "Odyssey Nexus": "images/odyssey-nexus.webp",
