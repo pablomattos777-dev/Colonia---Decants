@@ -1,5 +1,6 @@
 (() => {
   const descriptions = {
+    "Rayhaan Nocturno Elixir":"Eau de Parfum masculina de Rayhaan, amaderada y ambarada. Abre con sándalo, sigue con un corazón de ámbar y se asienta sobre un fondo de maderas y ládano.",
     "Art of Universe Lattafa":"Eau de Parfum unisex de Lattafa Pride. Fresca, cítrica y frutal, con mandarina, bergamota, menta y jengibre en la salida; pera y flor de azahar en el corazón, sobre un fondo suave de almizcle, ámbar y cedro.",
     "Vintage Radio Lattafa":"Eau de Parfum unisex de Lattafa. Aromática, frutal y amaderada, con lavanda, salvia y bergamota en la salida; ciruela, palo santo y pimienta negra en el corazón, sobre un fondo de sándalo y oud.",
     "Club de Nuit Intenso Fuego Armaf":"Eau de Parfum de Armaf, cítrica, frutal y amaderada. Bergamota, pomelo y mandarina se combinan con piña tostada y ciruela; un corazón de lavanda, geranio y flores solares descansa sobre cedro, miel, haba tonka, vainilla y almizcle.",
