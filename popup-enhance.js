@@ -100,7 +100,6 @@
     'Erba Pura Xerjoff':'Frutal, dulce y almizclada, intensa, lujosa y de gran duración.',
     'Tobacco Vanille Tom Ford':'Tabaco dulce, vainilla y especias; cálida, opulenta y muy envolvente.',
     'Arabians Tonka Montale':'Dulce, ambarada y especiada, potente, intensa y de enorme duración.',
-    'Glich':'Moderna y versátil, con un perfil atractivo pensado para destacar.',
     'Conquer':'Intensa y elegante, con carácter moderno y una estela envolvente.',
     'Le Beau Paradise Garden':'Tropical, verde y dulce, sensual y exótica con un aire de verano.',
     'Y EDP Yves Saint Laurent':'Aromática, fresca y amaderada, limpia, moderna y muy versátil.',
