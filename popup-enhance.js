@@ -69,7 +69,6 @@
     'Hawas Verde':'Verde, fresca y aromática, con un carácter energético y moderno.',
     'Club de Nuit Intense Man':'Cítrica, ahumada y amaderada, potente, masculina y muy versátil.',
     'Hawas Ice':'Fresca, dulce y acuática, juvenil y muy agradable para el calor.',
-    'Asad Elixir Lattafa':'Especiada, ambarada y cálida, intensa y elegante con gran presencia.',
     'Odyssey Mega':'Aromática, fresca y amaderada, moderna y versátil para todo momento.',
     'Mandarinsky Elixir':'Cítrica, dulce y especiada, vibrante y envolvente con salida frutal.',
     'Momento de Riffs':'Dulce, ambarada y especiada, cálida y atractiva para clima fresco.',

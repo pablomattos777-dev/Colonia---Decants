@@ -2,7 +2,6 @@
   // Set a perfume name to false here when it is temporarily out of stock.
   const stockByName = {
   "Le Male Le Parfum": true,
-  "Asad Elixir Lattafa": false,
   "Club de Nuit Intense Man": false,
   "Conquer": false,
   "Good Girl Blush Elixir": false,
