@@ -40,7 +40,6 @@
     'Nautica Voyage':'Acuática, verde y fresca, ideal para calor y uso diario.',
     '212 VIP Black Elixir Cab':'Dulce, especiada y nocturna, con un perfil intenso y seductor.',
     'Le Male Le Parfum':'Dulce, especiada y ambarada, elegante y cremosa con mucha presencia.',
-    'La Vie Est Belle Soleil Cristal':'Dulce, floral y luminosa, con un toque cremoso y tropical.',
     '212 EDT Carolina Herrera':'Floral, fresca y limpia, con un estilo urbano y elegante.',
     'Good Girl':'Dulce, floral y ambarada, sensual, intensa y sofisticada.',
     'Idôle Aura':'Floral, luminosa y ligeramente salada, femenina y envolvente.',
