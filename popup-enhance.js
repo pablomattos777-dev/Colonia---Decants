@@ -114,7 +114,6 @@
     'Mon Paris':'Frutal, floral y dulce, romántica, intensa y muy femenina.',
     'CK Be':'Almizclada, fresca y suave, limpia, casual y totalmente unisex.',
     'Gucci Guilty Essence':'Aromática y amaderada, limpia, elegante y de estilo contemporáneo.',
-    'Azzaro The Most Wanted EDT Intense':'Dulce, especiada y amaderada, intensa, seductora y nocturna.',
     'Versace Eros EDT':'Fresca, dulce y aromática, energética, juvenil y muy llamativa.',
     'La Vie Est Belle Elixir':'Dulce, floral y gourmand, intensa, elegante y muy envolvente.',
     'Kenzo Flower':'Floral empolvada y suave, elegante, femenina y atemporal.',

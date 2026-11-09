@@ -3,7 +3,6 @@
   const stockByName = {
   "Le Male Le Parfum": true,
   "Asad Elixir Lattafa": false,
-  "Azzaro The Most Wanted EDT Intense": false,
   "Club de Nuit Intense Man": false,
   "Conquer": false,
   "Good Girl Blush Elixir": false,
