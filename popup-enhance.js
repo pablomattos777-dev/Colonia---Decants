@@ -67,7 +67,6 @@
     'Club de Nuit Milestone':'Marina, frutal y amaderada, fresca, elegante y con toque salino.',
     'Rayhaan Azul':'Fresca, aromática y cítrica, limpia y versátil para uso diario.',
     'Hawas Verde':'Verde, fresca y aromática, con un carácter energético y moderno.',
-    'Club de Nuit Intense Man':'Cítrica, ahumada y amaderada, potente, masculina y muy versátil.',
     'Hawas Ice':'Fresca, dulce y acuática, juvenil y muy agradable para el calor.',
     'Odyssey Mega':'Aromática, fresca y amaderada, moderna y versátil para todo momento.',
     'Mandarinsky Elixir':'Cítrica, dulce y especiada, vibrante y envolvente con salida frutal.',
