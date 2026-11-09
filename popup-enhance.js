@@ -119,7 +119,6 @@
     'La Vie Est Belle Elixir':'Dulce, floral y gourmand, intensa, elegante y muy envolvente.',
     'Kenzo Flower':'Floral empolvada y suave, elegante, femenina y atemporal.',
     'DKNY Be Delicious EDP':'Frutal verde y fresca, jugosa, alegre y perfecta para diario.',
-    'Asad Bourbon':'Dulce, especiada y ambarada, cálida, intensa y con aire sofisticado.'
   };
 
   function fallbackDescription(p){
