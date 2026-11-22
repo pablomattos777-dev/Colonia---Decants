@@ -62,4 +62,16 @@ const nightOutProduct=products.find(p=>p.name==='9PM Night Out');
 if(nightOutProduct){nightOutProduct.image='images/9pm-night-out.jpg';render();}
 </script>
 <script src="new-products-2026-09-18.js"></script>\n<script src="decants-gallery.js"></script>
+
+<script>
+// Retirar 212 VIP Black Elixir de Carolina Herrera del catálogo.
+(() => {
+  if (typeof products === 'undefined' || !Array.isArray(products)) return;
+  const isRemoved = name => /\b212\s*vip\s*black\s*elixir\b/i.test(String(name || ''));
+  for (let i = products.length - 1; i >= 0; i--) {
+    if (isRemoved(products[i].name)) products.splice(i, 1);
+  }
+  if (typeof render === 'function') render();
+})();
+</script>
 </body></html>
