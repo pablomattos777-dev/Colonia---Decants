@@ -96,4 +96,16 @@ if(nightOutProduct){nightOutProduct.image='images/9pm-night-out.jpg';render();}
   if (typeof render === 'function') render();
 })();
 </script>
+
+<script>
+// Retirar Azzaro The Most Wanted Intense EDT del catálogo.
+(() => {
+  if (typeof products === 'undefined' || !Array.isArray(products)) return;
+  const matches = name => /^(?:(?:azzaro)\s+)?the\s+most\s+wanted\s+(?:intense\s+edt|edt\s+intense)(?:\s+azzaro)?$/i.test(String(name || '').trim());
+  for (let i = products.length - 1; i >= 0; i--) {
+    if (matches(products[i].name)) products.splice(i, 1);
+  }
+  if (typeof render === 'function') render();
+})();
+</script>
 </body></html>
