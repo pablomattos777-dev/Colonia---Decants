@@ -85,4 +85,15 @@ if(nightOutProduct){nightOutProduct.image='images/9pm-night-out.jpg';render();}
   if (typeof render === 'function') render();
 })();
 </script>
+
+<script>
+// Retirar Asad Elixir del catálogo.
+(() => {
+  if (typeof products === 'undefined' || !Array.isArray(products)) return;
+  for (let i = products.length - 1; i >= 0; i--) {
+    if (/^(?:lattafa\s+)?asad\s+elixir(?:\s+lattafa)?$/i.test(String(products[i].name || '').trim())) products.splice(i, 1);
+  }
+  if (typeof render === 'function') render();
+})();
+</script>
 </body></html>
